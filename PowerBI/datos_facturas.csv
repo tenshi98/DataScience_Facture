@@ -1,0 +1,6 @@
+fecha_factura;proveedor;concepto;importe;moneda
+2024-01-15;Proveedor A;Servicios de Consultoría;1200.50;pesos
+2024-02-10;Proveedor B;Suministros de Oficina;45.20;pesos
+2024-03-05;Proveedor C;Suscripción Software;299.00;pesos
+2024-03-20;Proveedor A;Mantenimiento TI;850.00;pesos
+2024-04-12;Proveedor D;Viajes y Alojamiento;150.75;pesos

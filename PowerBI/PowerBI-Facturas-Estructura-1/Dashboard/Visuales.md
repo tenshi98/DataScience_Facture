@@ -1,0 +1,1 @@
+KPIs, Línea temporal, Barras proveedor, Barras concepto, Tabla detalle, Segmentadores.

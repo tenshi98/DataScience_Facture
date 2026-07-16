@@ -1,0 +1,1 @@
+Esta carpeta es un marcador. Un .pbip funcional debe ser generado por Power BI Desktop; aquí se documenta la estructura prevista.

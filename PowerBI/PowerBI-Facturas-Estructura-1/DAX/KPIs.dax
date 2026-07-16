@@ -1,0 +1,3 @@
+Total Facturado=SUM(Facturas[importe])
+Cantidad Facturas=COUNTROWS(Facturas)
+Promedio por Factura=DIVIDE([Total Facturado],[Cantidad Facturas])

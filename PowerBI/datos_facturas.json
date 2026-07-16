@@ -1,0 +1,37 @@
+[
+  {
+    "fecha_factura": "2024-01-15",
+    "proveedor": "Proveedor A",
+    "concepto": "Servicios de Consultoría",
+    "importe": 1200.50,
+    "moneda": "Pesos"
+  },
+  {
+    "fecha_factura": "2024-02-10",
+    "proveedor": "Proveedor B",
+    "concepto": "Suministros de Oficina",
+    "importe": 45.20,
+    "moneda": "Pesos"
+  },
+  {
+    "fecha_factura": "2024-03-05",
+    "proveedor": "Proveedor C",
+    "concepto": "Suscripción Software",
+    "importe": 299.00,
+    "moneda": "Pesos"
+  },
+  {
+    "fecha_factura": "2024-03-20",
+    "proveedor": "Proveedor A",
+    "concepto": "Mantenimiento TI",
+    "importe": 850.00,
+    "moneda": "Pesos"
+  },
+  {
+    "fecha_factura": "2024-04-12",
+    "proveedor": "Proveedor D",
+    "concepto": "Viajes y Alojamiento",
+    "importe": 150.75,
+    "moneda": "Pesos"
+  }
+]

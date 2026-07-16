@@ -1,0 +1,26 @@
+Total Facturado = SUM(datos_facturas[importe])
+
+Cantidad de Facturas = COUNTROWS(datos_facturas)
+
+Ticket Promedio = DIVIDE([Total Facturado], [Cantidad de Facturas])
+
+Total Facturado Mes Anterior =
+CALCULATE([Total Facturado], DATEADD(Calendario[Fecha], -1, MONTH))
+
+Variacion % vs Mes Anterior =
+DIVIDE([Total Facturado] - [Total Facturado Mes Anterior], [Total Facturado Mes Anterior])
+
+Top Proveedor =
+CALCULATE(
+    SELECTEDVALUE(datos_facturas[proveedor]),
+    TOPN(1, VALUES(datos_facturas[proveedor]), [Total Facturado], DESC)
+)
+
+% del Total por Proveedor =
+DIVIDE([Total Facturado], CALCULATE([Total Facturado], ALL(datos_facturas[proveedor])))
+
+Ranking Proveedores =
+RANKX(ALL(datos_facturas[proveedor]), [Total Facturado], , DESC)
+
+Acumulado Anual =
+CALCULATE([Total Facturado], FILTER(ALL(Calendario), Calendario[Fecha] <= MAX(Calendario[Fecha])))

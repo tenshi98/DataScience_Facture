@@ -1,0 +1,4 @@
+Gasto por Proveedor=[Total Facturado]
+Gasto por Concepto=[Total Facturado]
+Participacion Proveedor %=DIVIDE([Total Facturado],CALCULATE([Total Facturado],ALL(Facturas[proveedor])))
+Total Mes=CALCULATE([Total Facturado],DATESMTD(Calendario[Date]))

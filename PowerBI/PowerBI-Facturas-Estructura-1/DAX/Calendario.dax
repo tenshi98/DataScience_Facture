@@ -1,0 +1,1 @@
+Calendario=CALENDAR(MIN(Facturas[fecha_factura]),MAX(Facturas[fecha_factura]))
